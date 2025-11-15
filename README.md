@@ -1,60 +1,65 @@
-Cosmetics Online Store
+# Cosmetics Online Store
 
-This project was created as part of my Web Development course.
+This project was created as part of my Web Development course.  
 It includes a React client and a Node.js/Express server, and allows users to browse cosmetic products and place an order.
 
-Main Features
+---
 
-Product list with images, prices and descriptions
+## Main Features
 
-Add products to cart and view cart summary
+- Product list with images, prices and descriptions  
+- Add products to cart and view cart summary  
+- Order form with basic validation  
+- Success message after submitting an order  
+- Simple and clean responsive design  
+- Separate client and server folders
 
-Order form with basic validation
+---
 
-Success message after submitting an order
+## Technologies
 
-Simple and clean responsive design
+### Client
 
-Separate client and server folders
+- React  
+- React Router  
+- Context API  
+- CSS  
 
-Technologies
-Client
+### Server
 
-React
+- Node.js  
+- Express  
+- MongoDB (Mongoose)
 
-React Router
+---
 
-Context API
+## Project Structure (Short Version)
 
-CSS
+Client/     → React frontend  
+Server/     → Node.js backend  
+&nbsp;&nbsp;&nbsp;routes/  
+&nbsp;&nbsp;&nbsp;controllers/  
+&nbsp;&nbsp;&nbsp;db connection  
 
-Server
+---
 
-Node.js
+## How to Run
 
-Express
+### Client
 
-MongoDB (Mongoose)
+cd Client  
+npm install  
+npm start  
 
-Project Structure (Short Version)
-Client/     → React frontend
-Server/     → Node.js backend
-   routes/
-   controllers/
-   db connection
+### Server
 
-How to Run
-Client
-cd Client
-npm install
-npm start
+cd Server  
+npm install  
+npm start   # or: node server.js  
 
-Server
-cd Server
-npm install
-npm start   # or: node server.js
+---
 
-Author
+## Author
 
-Maya Sofer
+Maya Sofer  
 Computer Science Student, Sapir College
